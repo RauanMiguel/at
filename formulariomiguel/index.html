@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    
+    <form action="DO_LOGIN.HTML" method="get">
+        
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        
+        <label for="data">Data de Hoje:</label>
+        <input type="date" id="data" name="data">
+        <br><br>
+
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br><br>
+
+        
+        <p>Qual sua disciplina preferida?</p>
+        <input type="radio" id="matematica" name="disciplina" value="Matemática">
+        <label for="matematica">Matemática</label><br>
+
+        <input type="radio" id="portugues" name="disciplina" value="Português">
+        <label for="portugues">Português</label><br>
+
+        <input type="radio" id="informatica" name="disciplina" value="Informática">
+        <label for="informatica">Informática</label><br><br>
+
+        <!-- Botão enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
